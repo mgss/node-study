@@ -16,6 +16,11 @@
   
 ```bash
 # 进入不同的目录下
+
+# 请先使用nvm切换项目需要的版本
+# 如未安装，则按照系统提示指令安装即可
+nvm use
+
 npm install #or yarn install
 npm run dev
 npm run build
