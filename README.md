@@ -8,7 +8,7 @@
 
 
 ## 目录:  
-* node-basic 系统模块DEMO
+* node-basic 系统模块DEMO
 * ...
 
 
