@@ -1,3 +1,6 @@
-const os = require('os')
+// const os = require('os')\
+// console.log(os.hostname());
+require('./src/demo/1_sub_pub')
 
-console.log(os.hostname());
+
+
