@@ -19,7 +19,7 @@ describe('TestExceptionDemo', function() {
   });
 
   // * 2. sinon.stub可以替换掉目标函数，并附加一些自定义行为
-  it('测试使用Sinon Stub', () => {
+  it('测试使用 Sinon Stub', () => {
     var stub = sinon.stub(demo, 'logMessage')
     stub.withArgs('hello').returns('hello')
     demo.send('hello')
