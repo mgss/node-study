@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Comments</title>
+</head>
+<body>
+  <h1>Comments</h1>
+  <ul>
+    <% comments.forEach(comment => { %>
+      <li>
+        <%= comment.comment %> 
+        <span style="color: #ccc;font-size:12px;">
+          <%= comment.created_at %> 
+        </span>
+      </li>
+    <% }) %>
+  </ul>
+</body>
+</html>
