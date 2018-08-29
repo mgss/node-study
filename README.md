@@ -9,6 +9,9 @@
 
 ## 目录:  
 * node-basic 系统模块DEMO
+* node-test 使用mocha进行单元测试的DEMO
+* node-express 使用express创建乞丐版留言板DEMO
+* node-mongodb 关联使用node和MongoDB的DEMO
 * ...
 
 
@@ -25,14 +28,6 @@ npm install #or yarn install
 npm run dev
 npm run build
 ```
-
-## TODO
-* Node系统模块DEMO
-* Express
-* koa2
-* Adonis
-* egg
-* Think.js
 
 ## License
 MIT
